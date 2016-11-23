@@ -4,12 +4,12 @@
 
 Param(
     [string] [Parameter(Mandatory=$true)] $ResourceGroupLocation,
-    [string] $ResourceGroupName = 'SanjeevTest',
+    [string] $ResourceGroupName = 'ARMForHMAMarketPlace',
     [switch] $UploadArtifacts,
     [string] $StorageAccountName,
     [string] $StorageContainerName = $ResourceGroupName.ToLowerInvariant() + '-stageartifacts',
-    [string] $TemplateFile = '..\Templates\WindowsVirtualMachine.json',
-    [string] $TemplateParametersFile = '..\Templates\WindowsVirtualMachine.parameters.json',
+    [string] $TemplateFile = '..\Templates\azuredeploy.json',
+    [string] $TemplateParametersFile = '..\Templates\azuredeploy.parameters.json',
     [string] $ArtifactStagingDirectory = '..\bin\Debug\staging',
     [string] $DSCSourceFolder = '..\DSC'
 )

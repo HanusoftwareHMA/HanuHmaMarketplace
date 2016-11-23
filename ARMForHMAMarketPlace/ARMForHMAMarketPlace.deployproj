@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>108f56f2-7451-4058-bfd2-2e69dff01d2f</ProjectGuid>
+    <ProjectGuid>ac9ce34a-7ef2-42ab-b1cb-ac0367e44dce</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFrameworkIdentifier>Deployment</TargetFrameworkIdentifier>
@@ -32,21 +32,11 @@
       <Visible>False</Visible>
     </None>
     <Content Include="Scripts\Deploy-AzureResourceGroup.ps1" />
-    <Content Include="Templates\WindowsVirtualMachine.json" />
-    <Content Include="Templates\WindowsVirtualMachine.parameters.json" />
+    <Content Include="Templates\azuredeploy1.json" />
+    <Content Include="Templates\azuredeploy.parameters1.json" />
     <None Include="Templates\azuredeploy.json" />
     <None Include="Templates\azuredeploy.parameters.json" />
-    <None Include="Templates\LinkedTemplates\azuredeploy-db.json" />
-    <None Include="Templates\LinkedTemplates\azuredeploy-db.parameters.json" />
-    <None Include="Templates\LinkedTemplates\azuredeploy-web.json" />
-    <None Include="Templates\LinkedTemplates\azuredeploy-web.parameters.json" />
-    <None Include="Templates\LinkedTemplates\azuredeploy.json" />
-    <None Include="Templates\LinkedTemplates\azuredeploy.parameters.json" />
-    <None Include="Templates\LinkedTemplates\README.md" />
-    <None Include="Templates\metadata.json" />
-    <None Include="Templates\README.md" />
-    <None Include="Templates\TechCoffeeLab.json" />
-    <None Include="Templates\TechCoffeeLab.param.json" />
+    <None Include="Templates\Ishwar\json.json" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>

@@ -16,62 +16,62 @@
     },
         "scheduleRunDays": {
             "type": "array",
-            "metadata": {
-                "description": "Backup Schedule will run on array of Days like, Monday, Tuesday etc. Applies in Weekly Backup Type only."
-            }
+          "metadata": {
+            "description": "Backup Schedule will run on array of Days.Example :[sunday,Tuesday,Thursday].All item will be enclosed with double quote."
+          }
   },
   "scheduleRunTimes": {
     "type": "array",
     "metadata": {
-      "description": "Times in day when backup should be triggered. e.g. 01:00, 13:00. This will be used in LTR too for daily, weekly, monthly and yearly backup."
+      "description": "Times in day when backup should be triggered.Example:[ 2016-09-21T05:  30: 00Z ].Item will be enclosed with double quote."
     }
   },
   "weeklyRetentionDurationCount": {
     "type": "int",
     "metadata": {
-      "description": "Number of weeks you want to retain the backup"
+      "description": "Number of weeks you want to retain the backup.Example:104"
     }
   },
   "daysOfTheWeekForMontlyRetention": {
     "type": "array",
     "metadata": {
-      "description": "Array of Days for Monthly Retention (Min One or Max all values from scheduleRunDays, but not any other days which are not part of scheduleRunDays)"
+      "description": "Array of Days for Monthly Retention (Min One or Max all values from scheduleRunDays, but not any other days which are not part of scheduleRunDays).Example:[sunday,Tuesday].All item will be enclosed with double quote."
     }
   },
   "weeksOfTheMonthForMonthlyRetention": {
     "type": "array",
     "metadata": {
-      "description": "Array of Weeks for Monthly Retention - First, Second, Third, Fourth, Last"
+      "description": "Array of Weeks for Monthly Retention.Example:[ First, Third ].All item will be enclosed with double quote."
     }
   },
   "monthlyRetentionDurationCount": {
     "type": "int",
     "metadata": {
-      "description": "Number of months you want to retain the backup"
+      "description": "Number of months you want to retain the backup.Example:60"
     }
   },
   "monthsOfYear": {
     "type": "array",
     "metadata": {
-      "description": "Array of Months for Yearly Retention"
+      "description": "Array of Months for Yearly Retention.Example:[January,March,August].All item will be enclosed with double quote."
     }
   },
   "daysOfTheWeekForYearlyRetention": {
     "type": "array",
     "metadata": {
-      "description": "Array of Days for Yearly Retention (Min One or Max all values from scheduleRunDays, but not any other days which are not part of scheduleRunDays)"
+      "description": "Array of Days for Yearly Retention (Min One or Max all values from scheduleRunDays, but not any other days which are not part of scheduleRunDays).Example:[sunday,Tuesday].All item will be enclosed with double quote."
     }
   },
   "weeksOfTheMonthForYearlyRetention": {
     "type": "array",
     "metadata": {
-      "description": "Array of Weeks for Yearly Retention - First, Second, Third, Fourth, Last"
+      "description": "Array of Weeks for Yearly Retention.Example:[ First, Third ].All item will be enclosed with double quote."
     }
   },
   "yearlyRetentionDurationCount": {
     "type": "int",
     "metadata": {
-      "description": "Number of years you want to retain the backup"
+      "description": "Number of years you want to retain the backup.Example:10"
     }
   }
 }, "resources": [

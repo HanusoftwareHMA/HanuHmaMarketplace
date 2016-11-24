@@ -5,13 +5,13 @@
     "vaultName": {
       "type": "string",
       "metadata": {
-        "description": "Name of the Recovery Services Vault..."
+        "description": "Name of the Recovery Services Vault.Example: POCRecoveryVault"
       }
     },
     "policyName": {
       "type": "string",
       "metadata": {
-        "description": "Name of the Backup Policy"
+        "description": "Name of the Backup Policy.Example:POCBkpolicy"
       }
     },
         "scheduleRunDays": {

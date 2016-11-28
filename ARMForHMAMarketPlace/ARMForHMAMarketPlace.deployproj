@@ -32,10 +32,8 @@
       <Visible>False</Visible>
     </None>
     <Content Include="Scripts\Deploy-AzureResourceGroup.ps1" />
-    <Content Include="Templates\azuredeploy1.json" />
-    <Content Include="Templates\azuredeploy.parameters1.json" />
-    <None Include="Templates\azuredeploy.json" />
-    <None Include="Templates\azuredeploy.parameters.json" />
+    <None Include="Templates\Amit\azuredeploy.json" />
+    <None Include="Templates\Amit\azuredeploy.parameters.json" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>

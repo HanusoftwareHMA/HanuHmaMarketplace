@@ -34,6 +34,7 @@
     <Content Include="Scripts\Deploy-AzureResourceGroup.ps1" />
     <None Include="Templates\Amit\azuredeploy.json" />
     <None Include="Templates\Amit\azuredeploy.parameters.json" />
+    <None Include="Templates\Amit\README.md.txt" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>

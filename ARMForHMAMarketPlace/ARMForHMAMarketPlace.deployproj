@@ -32,12 +32,12 @@
       <Visible>False</Visible>
     </None>
     <Content Include="Scripts\Deploy-AzureResourceGroup.ps1" />
-    <None Include="NewUidefination\NewUidefination\createUiDefinition.json" />
-    <None Include="NewUidefination\NewUidefination\createUiDefinition1.json" />
-    <None Include="NewUidefination\NewUidefination\createUiDefinition_VmInformation.json" />
-    <None Include="NewUidefination\NewUidefination\mainTemplate.json" />
-    <None Include="NewUidefination\NewUidefination\mainTemplate1.json" />
-    <None Include="NewUidefination\NewUidefination\README.md" />
+    <None Include="NewUidefination\createUiDefinition.json" />
+    <None Include="NewUidefination\createUiDefinition1.json" />
+    <None Include="NewUidefination\createUiDefinition_VmInformation.json" />
+    <None Include="NewUidefination\mainTemplate.json" />
+    <None Include="NewUidefination\mainTemplate1.json" />
+    <None Include="NewUidefination\README.md" />
     <None Include="Templates\Amit\azuredeploy.json" />
     <None Include="Templates\Amit\azuredeploy.parameters.json" />
     <None Include="Templates\Amit\README.md" />

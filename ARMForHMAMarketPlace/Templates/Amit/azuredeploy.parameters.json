@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vaultName": {
-      "value": "RSvault1"
+      "value": "RSvault108"
     },
     "policyName": {
-      "value": "WeeklyBackupPolicy1"
+      "value": "WeeklyPolicy108"
     },
     "scheduleRunDays": {
       "value": [ "Sunday", "Tuesday", "Thursday" ]
@@ -37,6 +37,21 @@
     },
     "yearlyRetentionDurationCount": {
       "value": 10
+    },
+    "existingProtectionContainers": {
+      "value": [
+        "iaasvmcontainer;iaasvmcontainerv2;HmaOnAzurePOC-Dev;DevVM02"
+      ]
+    },
+    "existingProtectableItems": {
+      "value": [
+        "vm;iaasvmcontainerv2;HmaOnAzurePOC-Dev;DevVM02"
+      ]
+    },
+    "existingSourceResourceIds": {
+      "value": [
+        "/subscriptions/63bb76f1-828b-4a86-8d02-89d0c75c56f2/resourceGroups/HmaOnAzurePOC-Dev/providers/Microsoft.Compute/virtualMachines/DevVM02"
+      ]
     }
   }
 }
